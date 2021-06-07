@@ -1,0 +1,17 @@
+.gallery__item{
+    display: flex;    
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.gallery__image{
+    display: flex;
+    height: 300px;
+    width: 450px;
+}
+
+.gallery__image:hover{
+    height: 310px;
+    width: 460px;
+}
