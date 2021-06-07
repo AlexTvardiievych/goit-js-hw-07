@@ -10,7 +10,7 @@
 
 const head = document.getElementsByTagName('head')[0];
 let style = document.createElement('link');
-style.href = "./css/task-03.css";
+style.href = "src/css/task-03.css";
 style.rel = "stylesheet";
 head.append(style);
 
