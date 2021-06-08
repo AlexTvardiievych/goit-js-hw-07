@@ -8,8 +8,7 @@ const inputName = document.getElementById("name-input");
 const outputName = document.getElementById("name-output");
 
 function onChangeText() {
-    console.log("I'm in");
-    if (inputName.value !== '') {
+    if (inputName.value.trim() !== '') {
         outputName.textContent = inputName.value;
     }
     else {
